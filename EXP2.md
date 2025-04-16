@@ -59,8 +59,7 @@ else:
 
 ```
 ### Output:
-![Uploading WhatsApp Image 2025-04-16 at 08.32.52_f6700005.jpg…]()
-
+![WhatsApp Image 2025-04-16 at 08 32 52_a6aac0cb](https://github.com/user-attachments/assets/090cfb66-a113-41e2-b9fa-7c962635ea2e)
 
 ### Result:
 Thus, the python program for matrix multiplication is implemented and the causes for its failure is introspected successfully.
