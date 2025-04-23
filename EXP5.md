@@ -1,5 +1,7 @@
-## EX:5 BINARY 
+## EX:5 BINARY SEARCH
 
+# DATE:23/04/2025
+# REGISTER NO:212222040081
 ### AIM: 
 Write a python program to check the number is Armstrong number or not and inspect for failures.
 
@@ -17,13 +19,34 @@ Write a python program to check the number is Armstrong number or not and inspec
 
 ### Program:
 
+```
+def Palindrome(string): 
+    for i in range(0, int(len(string)/2)): 
+        if string[i] != string[len(string) - i - 1]: 
+            return False 
+    return True 
+
+s = input("Enter a string: ") 
+c = 1 
+
+for i in s: 
+    if not i.isalpha(): 
+        c = 0 
+        break  
+
+if c == 0: 
+    print("Enter a valid string") 
+else: 
+    answer = Palindrome(s) 
+    if answer == True: 
+        print("The given string is a palindrome") 
+    else: 
+        print("The given string is not a palindrome")
 
 
 
 
-
-
-
+```
 
 
 
@@ -31,6 +54,7 @@ Write a python program to check the number is Armstrong number or not and inspec
 
 ### Output:
 
+![Screenshot 2025-04-23 083701](https://github.com/user-attachments/assets/44b04bf7-0eb1-4040-87c4-2e97bad4ba85)
 
 
 ### Result:
